@@ -20,23 +20,27 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
-<meta property="og:type" content="website">
+<meta name="description" content="期末大复习 面板模型模型名称固定效应模型，随机效应模型，混合模型 思想与假定原来用的模型是有$bug$的，  假如俺是上帝，我知道小明会把30%的生活费用于吃饭，有一项个人爱好买玩具会花100块，每天如果天气热就买一瓶可乐  在上面这个例子中，真实的每月支出模型应该是$$支出 &#x3D; 个人爱好 + 0.3生活费 + 天气\Y &#x3D; \alpha_i + \beta X + u$$   实际上不是每个人的">
+<meta property="og:type" content="article">
 <meta property="og:title" content="天同学学习笔记">
-<meta property="og:url" content="http://example.com/archives/2021/09/index.html">
+<meta property="og:url" content="http://example.com/2022/01/03/%E8%AE%A1%E9%87%8F%E5%A4%A7%E5%A4%8D%E4%B9%A0/index.html">
 <meta property="og:site_name" content="天同学学习笔记">
+<meta property="og:description" content="期末大复习 面板模型模型名称固定效应模型，随机效应模型，混合模型 思想与假定原来用的模型是有$bug$的，  假如俺是上帝，我知道小明会把30%的生活费用于吃饭，有一项个人爱好买玩具会花100块，每天如果天气热就买一瓶可乐  在上面这个例子中，真实的每月支出模型应该是$$支出 &#x3D; 个人爱好 + 0.3生活费 + 天气\Y &#x3D; \alpha_i + \beta X + u$$   实际上不是每个人的">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-01-03T02:35:59.532Z">
+<meta property="article:modified_time" content="2022-01-04T01:03:03.494Z">
 <meta property="article:author" content="天同学">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://example.com/archives/2021/09/">
+<link rel="canonical" href="http://example.com/2022/01/03/%E8%AE%A1%E9%87%8F%E5%A4%A7%E5%A4%8D%E4%B9%A0/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"archives/2021/09/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2022/01/03/%E8%AE%A1%E9%87%8F%E5%A4%A7%E5%A4%8D%E4%B9%A0/","path":"2022/01/03/计量大复习/","title":""}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>归档 | 天同学学习笔记</title>
+<title> | 天同学学习笔记</title>
   
 
 
@@ -101,7 +105,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -114,6 +118,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%9D%A2%E6%9D%BF%E6%A8%A1%E5%9E%8B"><span class="nav-number">1.</span> <span class="nav-text">面板模型</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A8%A1%E5%9E%8B%E5%90%8D%E7%A7%B0"><span class="nav-number">1.1.</span> <span class="nav-text">模型名称</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%80%9D%E6%83%B3%E4%B8%8E%E5%81%87%E5%AE%9A"><span class="nav-number">1.1.1.</span> <span class="nav-text">思想与假定</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A8%A1%E5%9E%8B%E8%AE%BE%E5%AE%9A%E4%B8%8E%E4%BC%B0%E8%AE%A1"><span class="nav-number">1.2.</span> <span class="nav-text">模型设定与估计</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A8%A1%E5%9E%8B%E6%A3%80%E9%AA%8C"><span class="nav-number">1.3.</span> <span class="nav-text">模型检验</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -181,49 +186,121 @@
 </noscript>
 
 
-    <div class="main-inner archive posts-collapse">
+    <div class="main-inner post posts-expand">
 
 
   
-  
-  
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 18 篇日志。 继续努力。</span>
-      </div>
 
-      
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/01/03/%E8%AE%A1%E9%87%8F%E5%A4%A7%E5%A4%8D%E4%B9%A0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="天同学">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="天同学学习笔记">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-01-03 10:35:59" itemprop="dateCreated datePublished" datetime="2022-01-03T10:35:59+08:00">2022-01-03</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2022-01-04 09:03:03" itemprop="dateModified" datetime="2022-01-04T09:03:03+08:00">2022-01-04</time>
+      </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>期末大复习</p>
+<h1 id="面板模型"><a href="#面板模型" class="headerlink" title="面板模型"></a>面板模型</h1><h2 id="模型名称"><a href="#模型名称" class="headerlink" title="模型名称"></a>模型名称</h2><p>固定效应模型，随机效应模型，混合模型</p>
+<h3 id="思想与假定"><a href="#思想与假定" class="headerlink" title="思想与假定"></a>思想与假定</h3><p>原来用的模型是有$bug$的，</p>
+<blockquote>
+<p>假如俺是上帝，我知道小明会把30%的生活费用于吃饭，有一项个人爱好买玩具会花100块，每天如果天气热就买一瓶可乐</p>
+</blockquote>
+<p>在上面这个例子中，真实的每月支出模型应该是<br>$$<br>支出 = 个人爱好 + 0.3生活费 + 天气\<br>Y = \alpha_i + \beta X + u<br>$$</p>
+<!--为什么只变截距，不变系数-->
+
+<p>实际上不是每个人的系数都相同，但可以把每个人的系数认为是相同的，因为反正做预测也要求平均，不如一开始就当作是一样的。</p>
+<p>这个个人爱好每个人都是不一样的，即便知道了这个人总支出500，也找到了截距0.3，但是个人爱好和随机扰动项黏在了一起，无法一起识别出来，所以说个体效应不可识别。但是面板数据里又可以识别了。但是面板效应里，每期消费又多了一个时间效应，可以看心情添加。</p>
+<p>面板模型就是在描述上面的情况，所以思想就是这个。</p>
+<!--混合模型-->
+
+<p>能不能</p>
+<!--固定效应与随机效应-->
+
+
+
+<p>代码</p>
+<p>前序工作</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">xtset <span class="built_in">id</span> t <span class="comment">#设定</span></span><br><span class="line">xtsum <span class="comment">#检验</span></span><br><span class="line">line y t <span class="comment">#时序图</span></span><br></pre></td></tr></table></figure>
+<p>考试内容</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">xtreg y x1 x2 x3, fe</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h2 id="模型设定与估计"><a href="#模型设定与估计" class="headerlink" title="模型设定与估计"></a>模型设定与估计</h2><h2 id="模型检验"><a href="#模型检验" class="headerlink" title="模型检验"></a>模型检验</h2>
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2021-09-01T22:28:01+08:00"
-              content="2021-09-01">
-          09-01
-        </time>
-      </div>
+    
+    
+    
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/09/01/%E5%85%B6%E4%BB%96%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hexo/" itemprop="url">
-            <span itemprop="name">如何在Github搭建Hexo博客</span>
-          </a>
-      </div>
+    <footer class="post-footer">
 
-      
-    </header>
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2021/12/31/%E5%8F%8D%E4%BA%8B%E5%AE%9E%E6%A1%86%E6%9E%B6%E6%98%AF%E4%BB%80%E4%B9%88/" rel="prev" title="">
+                  <i class="fa fa-chevron-left"></i> 
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2022/01/15/%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6/" rel="next" title="莫名其妙的小玩意">
+                  莫名其妙的小玩意 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
   </article>
+</div>
 
 
-    </div>
-  </div>
-  
-  
-  
+
+
+
 
 </div>
   </main>

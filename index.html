@@ -126,7 +126,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">14</span>
+          <span class="site-state-item-count">18</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -191,6 +191,311 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/01/15/%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="天同学">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="天同学学习笔记">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/01/15/%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6/" class="post-title-link" itemprop="url">莫名其妙的小玩意</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2022-01-15 00:00:00 / 修改时间：10:50:30" itemprop="dateCreated datePublished" datetime="2022-01-15T00:00:00+08:00">2022-01-15</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>如何使用<code>and</code> <code>or</code> `not``</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2022/01/15/%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/01/03/%E8%AE%A1%E9%87%8F%E5%A4%A7%E5%A4%8D%E4%B9%A0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="天同学">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="天同学学习笔记">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/01/03/%E8%AE%A1%E9%87%8F%E5%A4%A7%E5%A4%8D%E4%B9%A0/" class="post-title-link" itemprop="url">未命名</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-01-03 10:35:59" itemprop="dateCreated datePublished" datetime="2022-01-03T10:35:59+08:00">2022-01-03</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2022-01-04 09:03:03" itemprop="dateModified" datetime="2022-01-04T09:03:03+08:00">2022-01-04</time>
+      </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>期末大复习</p>
+<h1 id="面板模型"><a href="#面板模型" class="headerlink" title="面板模型"></a>面板模型</h1><h2 id="模型名称"><a href="#模型名称" class="headerlink" title="模型名称"></a>模型名称</h2><p>固定效应模型，随机效应模型，混合模型</p>
+<h3 id="思想与假定"><a href="#思想与假定" class="headerlink" title="思想与假定"></a>思想与假定</h3><p>原来用的模型是有$bug$的，</p>
+<blockquote>
+<p>假如俺是上帝，我知道小明会把30%的生活费用于吃饭，有一项个人爱好买玩具会花100块，每天如果天气热就买一瓶可乐</p>
+</blockquote>
+<p>在上面这个例子中，真实的每月支出模型应该是<br>$$<br>支出 = 个人爱好 + 0.3生活费 + 天气\<br>Y = \alpha_i + \beta X + u<br>$$</p>
+<!--为什么只变截距，不变系数-->
+
+<p>实际上不是每个人的系数都相同，但可以把每个人的系数认为是相同的，因为反正做预测也要求平均，不如一开始就当作是一样的。</p>
+<p>这个个人爱好每个人都是不一样的，即便知道了这个人总支出500，也找到了截距0.3，但是个人爱好和随机扰动项黏在了一起，无法一起识别出来，所以说个体效应不可识别。但是面板数据里又可以识别了。但是面板效应里，每期消费又多了一个时间效应，可以看心情添加。</p>
+<p>面板模型就是在描述上面的情况，所以思想就是这个。</p>
+<!--混合模型-->
+
+<p>能不能</p>
+<!--固定效应与随机效应-->
+
+
+
+<p>代码</p>
+<p>前序工作</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">xtset <span class="built_in">id</span> t <span class="comment">#设定</span></span><br><span class="line">xtsum <span class="comment">#检验</span></span><br><span class="line">line y t <span class="comment">#时序图</span></span><br></pre></td></tr></table></figure>
+<p>考试内容</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">xtreg y x1 x2 x3, fe</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h2 id="模型设定与估计"><a href="#模型设定与估计" class="headerlink" title="模型设定与估计"></a>模型设定与估计</h2><h2 id="模型检验"><a href="#模型检验" class="headerlink" title="模型检验"></a>模型检验</h2>
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/12/31/%E5%8F%8D%E4%BA%8B%E5%AE%9E%E6%A1%86%E6%9E%B6%E6%98%AF%E4%BB%80%E4%B9%88/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="天同学">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="天同学学习笔记">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/12/31/%E5%8F%8D%E4%BA%8B%E5%AE%9E%E6%A1%86%E6%9E%B6%E6%98%AF%E4%BB%80%E4%B9%88/" class="post-title-link" itemprop="url">未命名</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-12-31 18:50:53" itemprop="dateCreated datePublished" datetime="2021-12-31T18:50:53+08:00">2021-12-31</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <blockquote>
+<p>反事实框架是什么</p>
+</blockquote>
+<p>虽然不能知道如果你选择了另一条路会变得怎样，但是可以找到一个和你类似的人</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/12/19/md%E5%B0%8F%E6%8A%80%E5%B7%A7/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="天同学">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="天同学学习笔记">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/12/19/md%E5%B0%8F%E6%8A%80%E5%B7%A7/" class="post-title-link" itemprop="url">未命名</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2021-12-19 20:04:07 / 修改时间：20:04:36" itemprop="dateCreated datePublished" datetime="2021-12-19T20:04:07+08:00">2021-12-19</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <details>
+<summary>展示代码</summary>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">5</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;Hello World!&#x27;</span>)</span><br></pre></td></tr></table></figure>
+</details>
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="http://example.com/2021/12/18/%E8%AE%A1%E9%87%8F%E4%BD%9C%E4%B8%9A/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -214,10 +519,16 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2021-12-18 19:46:30 / 修改时间：23:05:56" itemprop="dateCreated datePublished" datetime="2021-12-18T19:46:30+08:00">2021-12-18</time>
+      <time title="创建时间：2021-12-18 19:46:30" itemprop="dateCreated datePublished" datetime="2021-12-18T19:46:30+08:00">2021-12-18</time>
     </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2021-12-20 00:10:21" itemprop="dateModified" datetime="2021-12-20T00:10:21+08:00">2021-12-20</time>
+      </span>
 
   
 </div>
@@ -244,7 +555,27 @@
 <!--带时间效应的一阶差分和LSDV等价吗--></li>
 </ol>
 <h1 id="动态面板线性回归模型；"><a href="#动态面板线性回归模型；" class="headerlink" title="动态面板线性回归模型；"></a>动态面板线性回归模型；</h1><h1 id="门限回归模型；"><a href="#门限回归模型；" class="headerlink" title="门限回归模型；"></a>门限回归模型；</h1><p>（4）面板分位数回归模型； </p>
-<p>（5）空间面板回归模型</p>
+<h1 id="空间面板回归模型"><a href="#空间面板回归模型" class="headerlink" title="空间面板回归模型"></a>空间面板回归模型</h1><h2 id="思想"><a href="#思想" class="headerlink" title="思想"></a>思想</h2><p>我的$X$影响别人的$Y$</p>
+<!--但是模型里写的是我的Y影响别人的Y，这和我的X影响别人的Y有区别吗-->
+
+<!--空间变系数的地理加权回归模型（Geographical Weighted  Regression，简记为GWR）是处理空间异质性的一种良好的估计方法。 这句话是什么意思-->
+
+<h2 id="定义空间权重矩阵"><a href="#定义空间权重矩阵" class="headerlink" title="定义空间权重矩阵"></a>定义空间权重矩阵</h2><p>有好几种邻接方法，车邻接，象邻接，后邻接，K近邻邻接balabala</p>
+<p>标准化，每一行代表一个人，直接标准化</p>
+<h2 id="空间滞后"><a href="#空间滞后" class="headerlink" title="空间滞后"></a>空间滞后</h2><p>类比时间滞后$\rho$，乘上一个就代表滞后一期，俗话说左行右列，对进行行组合</p>
+<h2 id="莫兰指数"><a href="#莫兰指数" class="headerlink" title="莫兰指数"></a>莫兰指数</h2><p>类比相关系数</p>
+<h2 id="空间自回归模型"><a href="#空间自回归模型" class="headerlink" title="空间自回归模型"></a>空间自回归模型</h2><p>最简单的空间自回归模型，认为系数和相关性成正比，然后作差，得到无偏估计</p>
+<h2 id="几种效应"><a href="#几种效应" class="headerlink" title="几种效应"></a>几种效应</h2><ol>
+<li><p>平均直接效应 $ADE$</p>
+<p>含义是该解释变量直接对被解释变量的影响</p>
+</li>
+<li><p>平均总效应 $ATE$</p>
+<p>含义是该解释变量对被解释变量的影响，既包括直接，也包括间接</p>
+</li>
+<li><p>平均简介效应 $AIE$</p>
+</li>
+</ol>
+<h2 id="空间杜宾模型"><a href="#空间杜宾模型" class="headerlink" title="空间杜宾模型"></a>空间杜宾模型</h2><p>加上我的X对别人$Y$的u哦买噶下哦昂</p>
 
       
     </div>
@@ -518,7 +849,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-12-18 23:31:55" itemprop="dateModified" datetime="2021-12-18T23:31:55+08:00">2021-12-18</time>
+        <time title="修改时间：2021-12-23 19:27:22" itemprop="dateModified" datetime="2021-12-23T19:27:22+08:00">2021-12-23</time>
       </span>
 
   
@@ -635,318 +966,6 @@
 
 
 
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/11/10/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0PCA%E4%B8%8ESVD/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="天同学">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="天同学学习笔记">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/11/10/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0PCA%E4%B8%8ESVD/" class="post-title-link" itemprop="url">PCA与SVD</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2021-11-10 22:27:01" itemprop="dateCreated datePublished" datetime="2021-11-10T22:27:01+08:00">2021-11-10</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-11-14 00:57:01" itemprop="dateModified" datetime="2021-11-14T00:57:01+08:00">2021-11-14</time>
-      </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>通过得到一个近似的矩阵，得到大幅减少行向量的维度</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/11/10/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0PCA%E4%B8%8ESVD/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/11/06/Python%E4%B8%80%E8%A1%8C%E6%B5%81/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="天同学">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="天同学学习笔记">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/11/06/Python%E4%B8%80%E8%A1%8C%E6%B5%81/" class="post-title-link" itemprop="url">《Python一行流》笔记</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2021-11-06 22:28:01" itemprop="dateCreated datePublished" datetime="2021-11-06T22:28:01+08:00">2021-11-06</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-11-14 00:56:38" itemprop="dateModified" datetime="2021-11-14T00:56:38+08:00">2021-11-14</time>
-      </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>增加行数并不会增加可读性<br>不如多一行备注，少一行代码</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/11/06/Python%E4%B8%80%E8%A1%8C%E6%B5%81/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/11/06/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92DNN/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="天同学">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="天同学学习笔记">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/11/06/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92DNN/" class="post-title-link" itemprop="url">逻辑回归DNN</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2021-11-06 22:27:01" itemprop="dateCreated datePublished" datetime="2021-11-06T22:27:01+08:00">2021-11-06</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-11-14 00:57:53" itemprop="dateModified" datetime="2021-11-14T00:57:53+08:00">2021-11-14</time>
-      </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>通反向传播神经网络，写了一个月吧，矩阵编程真的美妙，可惜还不知道怎么能一定让它收敛到全局最小</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/11/06/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92DNN/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/11/03/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%86%B3%E7%AD%96%E6%A0%91/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="天同学">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="天同学学习笔记">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/11/03/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%86%B3%E7%AD%96%E6%A0%91/" class="post-title-link" itemprop="url">决策树</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2021-11-03 22:27:01" itemprop="dateCreated datePublished" datetime="2021-11-03T22:27:01+08:00">2021-11-03</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-11-14 00:57:27" itemprop="dateModified" datetime="2021-11-14T00:57:27+08:00">2021-11-14</time>
-      </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>自己定义树类，然后通过递归构建树，再用递归输出if-then判断语句<br>这个决策树写得一字千金</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/11/03/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%86%B3%E7%AD%96%E6%A0%91/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
   <nav class="pagination">
     <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
@@ -960,7 +979,7 @@
 
 <div class="copyright">
   &copy; 
-  <span itemprop="copyrightYear">2021</span>
+  <span itemprop="copyrightYear">2022</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
